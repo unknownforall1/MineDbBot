@@ -57,6 +57,11 @@ STREAM_BIN = environ.get("STREAM_BIN", "-1002085145034") #Log channel/Bin Channe
 STREAM_URL = environ.get("STREAM_URL", "https://movies-x-store.onrender.com/") # https://example.com/ (Your Stream Url)
 IS_STREAM = bool(STREAM_BIN and STREAM_URL)
 #Use this feature, if you have deployed file to link bot. paste the app url with stream url and add filter bot as admin in bin channel and add id in stream bin
+#Request to Join 
+
+REQ_CHANNEL = environ.get("REQ_CHANNEL", '')
+REQ_CHANNEL = int(REQ_CHANNEL) if REQ_CHANNEL and id_pattern.search(REQ_CHANNEL) else False
+JOIN_REQS_DB = environ.get('JOIN_REQS_DB',"")
 
 # Others
 VERIFY = bool(environ.get('VERIFY', False))
