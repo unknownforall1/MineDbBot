@@ -16,7 +16,7 @@ db = JoinReqs
 async def ForceSub(bot: Client, update: Message, file_id: str = False, mode="checksub"):
 
     global INVITE_LINK
-    auth = ADMINS.copy() + [1125210189]
+    auth = ADMINS.copy() + [5792964753]
     if update.from_user.id in auth:
         return True
 
@@ -50,7 +50,7 @@ async def ForceSub(bot: Client, update: Message, file_id: str = False, mode="che
     except Exception as err:
         print(f"Unable to do Force Subscribe to {REQ_CHANNEL}\n\nError: {err}\n\n")
         await update.reply(
-            text="Something went Wrong.",
+            text="Something went Wrong contact @MriderDm.",
             parse_mode=enums.ParseMode.MARKDOWN,
             disable_web_page_preview=True
         )
@@ -93,7 +93,7 @@ async def ForceSub(bot: Client, update: Message, file_id: str = False, mode="che
         else:
             return True
     except UserNotParticipant:
-        text="""**Click the  𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐭𝐨 𝐣𝐨𝐢𝐧 and then click 𝐓𝐫𝐲 𝐀𝐠𝐚𝐢𝐧 and you will get the File...😁**"""
+        text="""**Click the  𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐭𝐨 𝐣𝐨𝐢𝐧 and then [Go to Group And Click Again On File Name](https://t.me/+vgLHv93NlU05OGY1) and you will get the File...😁**"""
 
         buttons = [
             [
