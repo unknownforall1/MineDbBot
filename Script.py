@@ -205,7 +205,8 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
     CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ : {file_name}
 ╔════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╗
 ▫️<a href=https://t.me/Movies_x_store> ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ </a>
-▫️<a href=https://t.me/+aEYTJtwZpalmM2Jl> ᴍᴏᴠɪᴇ​ ɢʀᴏᴜᴘ </a>
+▫️<a href=https://t.me/Filmy_fundas> ᴍᴏᴠɪᴇ ᴄʜᴀɴɴᴇʟ 2
+▫️<a href=https://t.me/+wGpJdoB9Xkk3Nzc9> ᴍᴏᴠɪᴇ​ ɢʀᴏᴜᴘ </a>
 ╚════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝</b>""" 
 
     IMDB_TEMPLATE_TXT = """
